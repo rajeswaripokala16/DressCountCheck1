@@ -1,0 +1,34 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faballey </title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+
+    <header>
+        <h1>MyShop</h1>
+        <button id="cart-btn">🛒 Cart (<span id="cart-count">0</span>)</button>
+    </header>
+
+    <div class="container">
+        <div id="products">
+            <!-- Products will be added dynamically -->
+        </div>
+    </div>
+
+    <!-- Cart Section -->
+    <div id="cart" class="cart-hidden">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+        <h3>Total: ₹<span id="total-price">0</span></h3>
+        <button id="close-cart">Close</button>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+</html>
